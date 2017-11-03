@@ -77,7 +77,7 @@ target 'MVVMReactiveCocoa' do
   pod 'ObjectiveSugar'
 
 
-  pod 'RxSwift', 3.6.1
+  pod 'RxSwift'
 
   # Artsy Spec repo stuff
   pod 'Artsy+UIFonts'
