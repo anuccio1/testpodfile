@@ -28,92 +28,85 @@ plugin 'cocoapods-keys', {
 
 target 'MVVMReactiveCocoa' do
 
-  # Networking
-  pod 'AFNetworking', "~> 2.5"
-  pod 'AFOAuth1Client', :git => "https://github.com/lxcid/AFOAuth1Client.git", :tag => "0.4.0"
-  pod 'AFNetworkActivityLogger'
-  pod 'SDWebImage', '>= 3.7.2' # 3.7.2 contains a fix that allows you to not force decoding each image, which uses lots of memory
+  # # Networking
+  # pod 'AFNetworking', "~> 2.5"
+  # pod 'AFOAuth1Client', :git => "https://github.com/lxcid/AFOAuth1Client.git", :tag => "0.4.0"
+  # pod 'AFNetworkActivityLogger'
+  # pod 'SDWebImage', '>= 3.7.2' # 3.7.2 contains a fix that allows you to not force decoding each image, which uses lots of memory
 
-  # Core
+  # # Core
 
-  # This is used once on the inquiryVC, could be pulled out
-  pod 'ALPValidator'
+  # # This is used once on the inquiryVC, could be pulled out
+  # pod 'ALPValidator'
 
-  pod 'ARGenericTableViewController', :git => 'https://github.com/orta/ARGenericTableViewController.git'
-  pod 'CocoaLumberjack', :git => 'https://github.com/CocoaLumberjack/CocoaLumberjack.git' # Unreleased > 2.0.1 version has a CP modulemap fix
-  pod 'FLKAutoLayout', :git => 'https://github.com/orta/FLKAutoLayout.git', :branch => 'v1'
-  pod 'FXBlurView'
-  pod 'iRate'
-  pod 'ISO8601DateFormatter', :git => "https://github.com/orta/iso-8601-date-formatter"
-  pod 'JLRoutes', :git => 'https://github.com/orta/JLRoutes.git'
-  pod 'JSBadgeView'
-  pod 'JSDecoupledAppDelegate'
-  pod 'Mantle', '~> 1.5.6'
-  pod 'MMMarkdown'
-  pod 'NPKeyboardLayoutGuide'
-  pod 'ReactiveCocoa'
-  pod 'UICKeyChainStore'
-  pod 'MARKRangeSlider'
-  pod 'EDColor'
-  pod 'SSFadingScrollView', :git => 'https://github.com/alloy/SSFadingScrollView.git', :branch => 'add-axial-support'
+  # pod 'ARGenericTableViewController', :git => 'https://github.com/orta/ARGenericTableViewController.git'
+  # pod 'CocoaLumberjack', :git => 'https://github.com/CocoaLumberjack/CocoaLumberjack.git' # Unreleased > 2.0.1 version has a CP modulemap fix
+  # pod 'FLKAutoLayout', :git => 'https://github.com/orta/FLKAutoLayout.git', :branch => 'v1'
+  # pod 'FXBlurView'
+  # pod 'iRate'
+  # pod 'ISO8601DateFormatter', :git => "https://github.com/orta/iso-8601-date-formatter"
+  # pod 'JLRoutes', :git => 'https://github.com/orta/JLRoutes.git'
+  # pod 'JSBadgeView'
+  # pod 'JSDecoupledAppDelegate'
+  # pod 'Mantle', '~> 1.5.6'
+  # pod 'MMMarkdown'
+  # pod 'NPKeyboardLayoutGuide'
+  # pod 'ReactiveCocoa'
+  # pod 'UICKeyChainStore'
+  # pod 'MARKRangeSlider'
+  # pod 'EDColor'
+  # pod 'SSFadingScrollView', :git => 'https://github.com/alloy/SSFadingScrollView.git', :branch => 'add-axial-support'
 
-  # Core owned by Artsy
-  pod 'ARTiledImageView', :git => 'https://github.com/dblock/ARTiledImageView'
-  pod 'ORStackView', '2.0.3'
-  pod 'UIView+BooleanAnimations'
-  pod 'NAMapKit', :git => 'https://github.com/neilang/NAMapKit'
-  pod 'Aerodramus'
+  # # Core owned by Artsy
+  # pod 'ARTiledImageView', :git => 'https://github.com/dblock/ARTiledImageView'
+  # pod 'ORStackView', '2.0.3'
+  # pod 'UIView+BooleanAnimations'
+  # pod 'NAMapKit', :git => 'https://github.com/neilang/NAMapKit'
+  # pod 'Aerodramus'
 
-  # Custom CollectionView Layouts
-  pod 'ARCollectionViewMasonryLayout', :git => 'https://github.com/ashfurrow/ARCollectionViewMasonryLayout', :branch => "modern"
+  # # Custom CollectionView Layouts
+  # pod 'ARCollectionViewMasonryLayout', :git => 'https://github.com/ashfurrow/ARCollectionViewMasonryLayout', :branch => "modern"
 
-  # Deprecated:
-  # UIAlertView is deprecated for iOS8 APIs
-  pod 'UIAlertView+Blocks'
+  # # Deprecated:
+  # # UIAlertView is deprecated for iOS8 APIs
+  # pod 'UIAlertView+Blocks'
 
-  # Language Enhancements
-  pod 'KSDeferred'
-  pod 'MultiDelegate'
-  pod 'ObjectiveSugar'
+  # # Language Enhancements
+  # pod 'KSDeferred'
+  # pod 'MultiDelegate'
+  # pod 'ObjectiveSugar'
 
 
   pod 'RxSwift'
 
-  # Artsy Spec repo stuff
-  pod 'Artsy+UIFonts'
-  pod 'Artsy-UIButtons'
-  pod 'Artsy+UIColors' 
-  pod 'Artsy+UILabels'
-  pod 'Extraction'
-
-  pod 'Emission'
-  pod 'React/Core', :git => 'https://github.com/alloy/react-native.git', :branch => '0.34.1-with-scrollview-fix'
+  # pod 'Emission'
+  # pod 'React/Core', :git => 'https://github.com/alloy/react-native.git', :branch => '0.34.1-with-scrollview-fix'
 
 
   # Facebook
-  pod 'FBSDKCoreKit', '~> 4.9'
-  pod 'FBSDKLoginKit', '~> 4.9'
+  # pod 'FBSDKCoreKit', '~> 4.9'
+  # pod 'FBSDKLoginKit', '~> 4.9'
 
-  # Analytics
-  pod 'Analytics'
-  pod 'ARAnalytics', :git=> "https://github.com/orta/ARAnalytics.git", :commit => "6f31b5c7bcbd59d4dac7e92e215d3c2c22f3400e", :subspecs => ["Segmentio", "HockeyApp", "Adjust", "DSL"]
+  # # Analytics
+  # pod 'Analytics'
+  # pod 'ARAnalytics', :git=> "https://github.com/orta/ARAnalytics.git", :commit => "6f31b5c7bcbd59d4dac7e92e215d3c2c22f3400e", :subspecs => ["Segmentio", "HockeyApp", "Adjust", "DSL"]
 
-  # Developer Pods
-  pod 'DHCShakeNotifier'
-  pod 'ORKeyboardReactingApplication'
-  pod 'VCRURLConnection'
+  # # Developer Pods
+  # pod 'DHCShakeNotifier'
+  # pod 'ORKeyboardReactingApplication'
+  # pod 'VCRURLConnection'
 
-  # Swift pods 🎉
-  pod 'Then'
-  pod 'Interstellar/Core', git: 'https://github.com/ashfurrow/Interstellar.git', branch: 'observable-unsubscribe'
-  pod 'Starscream'
-  pod 'SwiftyJSON'
+  # # Swift pods 🎉
+  # pod 'Then'
+  # pod 'Interstellar/Core', git: 'https://github.com/ashfurrow/Interstellar.git', branch: 'observable-unsubscribe'
+  # pod 'Starscream'
+  # pod 'SwiftyJSON'
 
-  # Used in Live Auctions to hold user-state
-  pod 'JWTDecode'
+  # # Used in Live Auctions to hold user-state
+  # pod 'JWTDecode'
 
-  # This can be changed when 0.5.2 is out
-  pod 'AppHub', :git => 'https://github.com/orta/apphub.git', :branch => "build_list"
+  # # This can be changed when 0.5.2 is out
+  # pod 'AppHub', :git => 'https://github.com/orta/apphub.git', :branch => "build_list"
 
 end
 
