@@ -1,4 +1,3 @@
-source 'https://github.com/fossas/test-specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
@@ -90,6 +89,8 @@ target 'MVVMReactiveCocoa' do
   # Facebook
   pod 'FBSDKCoreKit', '~> 4.9'
   pod 'FBSDKLoginKit', '~> 4.9'
+
+  pod 'RxSwift', 3.6.1
 
   # Analytics
   pod 'Analytics'
